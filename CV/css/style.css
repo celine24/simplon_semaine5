@@ -3,6 +3,9 @@ body {
     margin:0;
     background-color: #C8F7C5;
     font-family: "Times New Roman", sans-serif;
+    background-image:url("../img/seamless_paper_texture.png");
+    background-repeat:repeat;
+    background-attachment:fixed;
 }
 
 * { box-sizing: border-box; }
@@ -22,7 +25,7 @@ a:hover, a:focus { color: #3FC380; }
 
 .clear { clear: both; }
 
-header, footer, main { 
+header, footer { 
     width:100%; 
     background-repeat:repeat;
     background-attachment:fixed;
@@ -32,11 +35,13 @@ header, footer, main {
 
 header, footer { background-image:url("../img/subtle_white_mini_waves.png"); }
 
-main { background-image:url("../img/seamless_paper_texture.png"); }
-
 header { border-bottom:5px solid #049372; }
 
-footer { border-top:5px solid #049372; }
+footer { 
+    border-top:5px solid #049372; 
+    position:absolute; 
+    bottom:0; 
+}
 
 
 .conteneur {
