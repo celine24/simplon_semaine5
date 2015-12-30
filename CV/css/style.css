@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin:0;
+    background-color: #C8F7C5;
+    font-family: "Times New Roman", sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+h1,h2,h3,h4,h5,h6 { color: #1E824C; }
+
+li { list-style-type: square; }
+
+a, a:visited {
+    color: #049372;
+    font-weight: bold;
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover, a:focus { color: #3FC380; }
+
+header, footer, main { 
+    width:100%; 
+    background-repeat:repeat;
+    background-attachment:fixed;
+    margin:0;
+    padding:0;
+}
+
+header, footer { background-image:url("../img/subtle_white_mini_waves.png"); }
+
+main { background-image:url("../img/seamless_paper_texture.png"); }
+
+header { border-bottom:5px solid #049372; }
+
+footer { border-top:5px solid #049372; }
+
+
+.conteneur {
+    width: 100%;
+    max-width: 960px;
+    padding: 10px;
+    margin: auto;
+}
+
+.header-title { text-align: left; }
+
+footer address p { margin: 2px 0; }
+
+footer a, footer a:hover { color: #1E824C; }
+
+.header-img-identite { 
+    float: left; 
+    width: 200px;
+    margin: 20px 50px 20px 0;
+    border: 5px solid white;
+    box-shadow: 2px 2px 5px black;
+}
+
+.header-block-title { padding-top:20px; }
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    width: 33%;
+}
+
+.main-title { 
+    text-transform: uppercase; 
+    font-family: arial;
+    text-decoration: underline;
+}
+
+.clear { clear: both; }
